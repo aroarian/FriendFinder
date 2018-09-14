@@ -5,20 +5,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Self CSS-->
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-        
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
     <title>Friend Finder</title>
 </head>
 
 <body>
-    <div class="container">
-        
+    <div class="surveyContainer">
+        <div class="surveybanner">Survey Questions</div>
+        <form class="survey">
+            <h3>About You</h3>
+            <p>Name (Required)</p>
+            <input type="text" name="name">
+            <p>Link to Photo Image (Required)</p>
+            <input type="text" id="imgInput" name="image">
+            <h3>Question 1</h3>
+            <p>Text Here</p>
+            <select name="question" id="q1">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 2</h3>
+            <p>Text Here</p>
+            <select name="question" id="q2">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 3</h3>
+            <p>Text Here</p>
+            <select name="question" id="q3">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 4</h3>
+            <p>Text Here</p>
+            <select name="question" id="q4">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 5</h3>
+            <p>Text Here</p>
+            <select name="question" id="q5">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 6</h3>
+            <p>Text Here</p>
+            <select name="question" id="q6">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 7</h3>
+            <p>Text Here</p>
+            <select name="question" id="q7">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 8</h3>
+            <p>Text Here</p>
+            <select name="question" id="q8">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 9</h3>
+            <p>Text Here</p>
+            <select name="question" id="q9">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h3>Question 10</h3>
+            <p>Text Here</p>
+            <select name="question" id="q10">
+                <option value="" selected disabled hidden>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </form>
+        <button class="surveyButton">Submit</button>
+        <!-- Trigger/Open The Modal -->
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="title"></p>
+                <img id="img">
+            </div>
+
+        </div>
     </div>
-   
+
     <!--JQuery CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    <script type="text/javascript" src="javascript/survey.js"></script>
 </body>
 
 </html>
