@@ -17,12 +17,13 @@
         <form class="survey">
             <h3>About You</h3>
             <p>Name (Required)</p>
-            <input type="text" name="name">
+            <input type="text" id ="nameInput" name="name" required>
             <p>Link to Photo Image (Required)</p>
-            <input type="text" id="imgInput" name="image">
+            <input type="text" id="imgInput" name="image" required>
+
             <h3>Question 1</h3>
-            <p>Text Here</p>
-            <select name="question" id="q1">
+            <p>Fact: "Star Wars: The Last Jedi" is the worst Star Wars film.</p>
+            <select name="question" id="q1" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -30,9 +31,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 2</h3>
-            <p>Text Here</p>
-            <select name="question" id="q2">
+            <p>Given you have to be a fruit, a pickle would be your choice.</p>
+            <select name="question" id="q2" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -40,9 +42,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 3</h3>
-            <p>Text Here</p>
-            <select name="question" id="q3">
+            <p>Billy Nye the Science guy is cool.</p>
+            <select name="question" id="q3" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -50,9 +53,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 4</h3>
-            <p>Text Here</p>
-            <select name="question" id="q4">
+            <p>Jimmy Fallon is more funny than Jimmy Kimmel.</p>
+            <select name="question" id="q4" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -60,9 +64,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 5</h3>
-            <p>Text Here</p>
-            <select name="question" id="q5">
+            <p>Android > iOS</p>
+            <select name="question" id="q5" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -70,9 +75,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 6</h3>
-            <p>Text Here</p>
-            <select name="question" id="q6">
+            <p>Coke > Pepsi</p>
+            <select name="question" id="q6" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -80,9 +86,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 7</h3>
-            <p>Text Here</p>
-            <select name="question" id="q7">
+            <p>You rarely do something.</p>
+            <select name="question" id="q7" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -90,9 +97,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 8</h3>
-            <p>Text Here</p>
-            <select name="question" id="q8">
+            <p>Harry Potter is amazing.</p>
+            <select name="question" id="q8" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -100,9 +108,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 9</h3>
-            <p>Text Here</p>
-            <select name="question" id="q9">
+            <p>It is often difficult to relate to ants.</p>
+            <select name="question" id="q9" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -110,9 +119,10 @@
                 <option value="4">4</option>
                 <option value="5">5 (Strongly Agree)</option>
             </select>
+
             <h3>Question 10</h3>
-            <p>Text Here</p>
-            <select name="question" id="q10">
+            <p>The best tool to hammer a nail is a sponge.</p>
+            <select name="question" id="q10" required>
                 <option value="" selected disabled hidden>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -122,6 +132,11 @@
             </select>
         </form>
         <button class="surveyButton">Submit</button>
+        <div class="links">
+            <a href ="/api/friends">API Friends List</a>
+            <a href ="https://github.com/aroarian/FriendFinder" target="_blank">Git Hub</a>
+    
+        </div>
         <!-- Trigger/Open The Modal -->
         <!-- The Modal -->
         <div id="myModal" class="modal">

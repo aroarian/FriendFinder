@@ -8,6 +8,17 @@
     background-color: lightgray;
 }
 
+.links{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links a{
+    margin-right: 10px;
+}
+
 .banner{
     width: 88%;
     min-height: 350px;
@@ -21,6 +32,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 40px;
+    text-align: center;
     border-bottom: 1px solid black;
 }
 
@@ -47,21 +59,50 @@
     background-color: rgb(66, 66, 117);
 }
 
+.surveyButton{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(66, 66, 117);
+}
+
 .surveyContainer{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     min-height: 500px;
     height: auto;
+    padding: 15px;
     padding-bottom: 25px;
+    border-radius: 5px;
+    background-color: lightgray;
 }
 
 .surveyContainer p{
     font-size: 20px;
 }
 
+.surveyContainer .links{
+    width: 100%;
+    padding-top: 10px;
+    border-top:1px solid black;
+}
+
 .survey input{
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.survey h3{
+    margin-bottom: 10px;
+}
+
+.survey p{
+    margin-bottom: 10px;
 }
 
 h3{

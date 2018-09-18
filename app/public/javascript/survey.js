@@ -14,16 +14,16 @@ window.onclick = function(event) {
 
 $(".surveyButton").on("click", function(event){
     event.preventDefault();
-    var q1 = $("#q1").val()
-    var q2 = $("#q2").val()
-    var q3 = $("#q3").val()
-    var q4 = $("#q4").val()
-    var q5 = $("#q5").val()
-    var q6 = $("#q6").val()
-    var q7 = $("#q7").val()
-    var q8 = $("#q8").val()
-    var q9 = $("#q9").val()
-    var q10 = $("#q10").val()
+    var q1 = $("#q1").val();
+    var q2 = $("#q2").val();
+    var q3 = $("#q3").val();
+    var q4 = $("#q4").val();
+    var q5 = $("#q5").val();
+    var q6 = $("#q6").val();
+    var q7 = $("#q7").val();
+    var q8 = $("#q8").val();
+    var q9 = $("#q9").val();
+    var q10 = $("#q10").val();
 
     var body = {data:[q1,q2,q3,q4,q5,q6,q7,q8,q9,q10]};
         $.post("/api/friends", body, function(res){
@@ -34,15 +34,18 @@ $(".surveyButton").on("click", function(event){
 
         })
 
-    var q1 = $("#q1").val("")
-    var q2 = $("#q2").val("")
-    var q3 = $("#q3").val("")
-    var q4 = $("#q4").val("")
-    var q5 = $("#q5").val("")
-    var q6 = $("#q6").val("")
-    var q7 = $("#q7").val("")
-    var q8 = $("#q8").val("")
-    var q9 = $("#q9").val("")
-    var q10 = $("#q10").val("") 
+    $("#q1").val("");
+    $("#q2").val("");
+    $("#q3").val("");
+    $("#q4").val("");
+    $("#q5").val("");
+    $("#q6").val("");
+    $("#q7").val("");
+    $("#q8").val("");
+    $("#q9").val("");
+    $("#q10").val("");
+    $("#nameInput").val("");
+    $("#imgInput").val("")
+
 })
 
